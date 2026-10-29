@@ -1,0 +1,10 @@
+{
+  "container": "my-postgres-container",
+  "db_user": "postgres",
+  "target_dir": "/var/backups/postgres",
+  "retain": 3,
+  "databases": [
+    "app_production",
+    "app_reporting"
+  ]
+}
